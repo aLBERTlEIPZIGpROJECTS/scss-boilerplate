@@ -1,0 +1,11 @@
+header, footer{
+    padding: 5vh 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $grey3;
+}
+
+main{
+    margin: 0 20vw;
+}

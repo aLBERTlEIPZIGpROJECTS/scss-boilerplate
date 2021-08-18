@@ -1,0 +1,19 @@
+button{
+    padding: .5em 1.5em .5em 1.5em;
+    border: none;
+    border-radius: 5px;
+    font-size: $f3;
+    color: $primaryCol;
+    transition: $transitionDuration;
+    :hover{
+        color: $primaryColMuted;
+    }
+    :active{
+        color: white;
+        background-color: $primaryCol;
+    }
+    :focus{
+        color: $primaryColMuted;
+        background-color: $primaryCol;
+    }
+}

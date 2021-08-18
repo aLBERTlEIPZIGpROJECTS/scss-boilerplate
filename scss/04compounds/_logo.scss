@@ -1,0 +1,13 @@
+.logo{
+    display: flex;
+    &__img{
+        height: $imgLogo;
+        margin-right: 15px;
+    }
+    &__name{
+        font-size: $f3;
+        font-weight: 700;
+        color: $primaryCol;
+        line-height: 1.5em;
+    }
+}

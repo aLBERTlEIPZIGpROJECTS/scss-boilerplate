@@ -1,0 +1,10 @@
+.article{
+    margin: 5vh 0;
+    &__img{
+        height: $imgMed;
+        width: $imgMed;
+        object-fit: cover;
+        margin: 2em 0;
+    }
+    
+}
