@@ -7,6 +7,7 @@ h1{
     font-size: $f5;
     font-weight: 700;
     margin-bottom: .5em;
+    line-height: .8em;
     
     & + p{
         font-size: $f4;
@@ -19,6 +20,7 @@ h2{
     font-size: $f4;
     font-weight: 700;
     margin-bottom: .5em;
+    line-height: .8em;
 }
 
 h3{
@@ -31,6 +33,10 @@ p, textarea, figcaption, label, input, textarea, li{
     color: $primaryCol;
     font-size: $f3;
     margin-bottom: .5em;
+}
+
+a, textarea, figcaption{
+    line-height: 1.5em;
     width: clamp(45ch, 50%, 75ch);
 }
 
