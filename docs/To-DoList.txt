@@ -1,0 +1,1 @@
+convert colorCalculator and fontSize to scss loops

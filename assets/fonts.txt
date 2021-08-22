@@ -1,0 +1,155 @@
+                                                            SINGLE FONTS
+
+=======================================================================================================================
+=======================================================================================================================
+
+GARAMOND
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+
+font-family: 'EB Garamond', serif;
+
+=======================================================================================================================
+=======================================================================================================================
+
+BODONI
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
+
+font-family: 'Bodoni Moda', serif;
+
+=======================================================================================================================
+=======================================================================================================================
+
+CENTURY EXPLAINED, FUTURA, TIMES NEW ROMAN, HELVETICA
+
+=======================================================================================================================
+=======================================================================================================================
+
+                                                            FONT PAIRS
+
+VERSATILE Font Pair                 LATO + CRIMSON
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,700&display=swap" rel="stylesheet"> 
+
+font-family: 'Lato', sans-serif;
+font-family: 'Crimson Text', serif;
+
+https://fonts.google.com/specimen/Lato?query=lato
+https://fonts.google.com/specimen/Crimson+Text?query=crimson
+
+
+=======================================================================================================================
+=======================================================================================================================
+
+
+IMPACTING Fonts Pair                BEBAS NEUE + MONTSERRAT
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+https://fonts.google.com/specimen/Bebas+Neue?query=beba
+https://fonts.google.com/specimen/Montserrat?query=MONTSERRAT
+
+
+=======================================================================================================================
+=======================================================================================================================
+
+IMPACTING #2 Fonts Pair             ALFA SLAB + OPEN SANS
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+https://fonts.google.com/specimen/Open+Sans?query=open+sa
+https://fonts.google.com/specimen/Alfa+Slab+One?query=alfa+
+
+
+=======================================================================================================================
+=======================================================================================================================
+
+TECH Font Pair                      RALEWAY + ROBOTO
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+https://fonts.google.com/specimen/Raleway?query=Ralewa
+https://fonts.google.com/specimen/Roboto?query=Roboto
+
+=======================================================================================================================
+=======================================================================================================================
+
+SOFISTICATED Font Pair              CINZEL + LORA
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+font-family: 'Cinzel', serif;
+font-family: 'Lora', serif;
+
+https://fonts.google.com/specimen/Cinzel?query=cinzel
+https://fonts.google.com/specimen/Lora?query=lora
+
+
+=======================================================================================================================
+=======================================================================================================================
+
+ORGANIC / NATURAL Font Pair         YELLOWTAIL + OPEN SANS
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Yellowtail&display=swap" rel="stylesheet">
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yellowtail', cursive;
+
+https://fonts.google.com/specimen/Yellowtail?query=yellow
+https://fonts.google.com/specimen/Open+Sans?query=open+
+
+=======================================================================================================================
+=======================================================================================================================
+
+PLAYFULL Font Pair                  AMATIC / JOSEFIN SANS
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,700&display=swap" rel="stylesheet">
+
+font-family: 'Amatic SC', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+https://fonts.google.com/specimen/Amatic+SC?query=amatic
+https://fonts.google.com/specimen/Josefin+Sans?query=josefi
+
+
+=======================================================================================================================
+=======================================================================================================================
+SOFISTICATED + SERIOUS Font Pair     PLAYFAIR DISPLAY / FAUNA ONE
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+font-family: 'Fauna One', serif;
+font-family: 'Playfair Display', serif;
+
+https://fonts.google.com/specimen/Fauna+One?query=fauna+on
+https://fonts.google.com/specimen/Playfair+Display?query=displa
+
+=======================================================================================================================
+=======================================================================================================================

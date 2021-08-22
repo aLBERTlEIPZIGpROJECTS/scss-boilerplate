@@ -1,0 +1,26 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body{
+    background-color: black;
+    background: url(./lily-banse--YHSwy6uqvk-unsplash.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 25rem;
+    text-align: center;
+}
+
+.container{
+    margin: 25vh 25vw;
+    background: rgba( 255, 255, 255, 0.14);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
