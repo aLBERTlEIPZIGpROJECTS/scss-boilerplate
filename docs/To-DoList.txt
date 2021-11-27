@@ -1,1 +1,2 @@
-convert colorCalculator and fontSize to scss loops
+test cards
+add @media

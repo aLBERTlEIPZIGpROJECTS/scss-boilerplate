@@ -1,0 +1,85 @@
+.productcard{
+    max-width: 10vw;
+    border: $borderMed solid $primaryCol;
+    border-radius: $borderRadius;
+    padding: 10%, 10%;
+    
+    &__discount{
+        background-color: red;
+        padding: 1em 1.5em;
+        color: white;
+        border-radius: 20px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    
+    &__img{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    &__tag-container{
+        display: flex;
+    }
+
+    &__tag{
+        padding: 1em 1.5em;
+        color: white;
+        border-radius: 20px;
+        background-color: #3d3d3d;
+
+        &-special{
+            background-color: purple;
+        }
+    }
+
+    &__title{
+        font-size: $f4;
+        font-weight: 700;
+        color: $primaryCol;
+    }
+
+    &__price{
+        font-size: $f4;
+        font-weight: 700;
+        color: $primaryColSat;
+    }
+
+    &__size-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    &__size{
+        font-size: $f3;
+        color: #8f8f8f;
+        padding: 1em;
+        border-radius: 10px;
+        margin: 0 1.5em;
+
+        &-selected{
+            color: #3d3d3d;
+            background-color: #8f8f8f;
+        }
+    }
+
+    //font awesome
+
+    &__btn{
+        width: 80%;
+        color: white;
+        background-color: #3d3d3d;
+        border-radius: 20px;
+
+        &:after{
+            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f178";
+            margin-right: 10%;
+        }
+    }
+    
+}

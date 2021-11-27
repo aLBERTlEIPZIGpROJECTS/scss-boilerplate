@@ -1,0 +1,46 @@
+.employeecard{
+    max-width: 10vw;
+    border: $borderMed solid $primaryCol;
+    border-radius: $borderRadius;
+    padding: 10%, 10%;
+    
+    &__img{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+
+    &__name{
+        font-size: $f4;
+        font-weight: 700;
+        color: $primaryCol;
+        text-align: center;
+    }
+
+    &__position{
+        font-size: $f3;
+        color: $primaryColLight;
+        text-align: center;
+    }
+
+    // <script src="https://kit.fontawesome.com/8760c187cc.js" crossorigin="anonymous"></script>
+
+    &__phone{
+        color: $primaryCol;
+        font-size: $f3;
+
+        &:before{
+            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f095";
+        }
+    }
+
+    &__mail{
+        color: $primaryCol;
+        font-size: $f3;
+
+        &:before{
+            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e0";
+        }
+    }
+}

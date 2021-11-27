@@ -1,0 +1,37 @@
+materialCard1
+.card{
+    max-width: 10vw;
+    border: $borderMed solid $primaryCol;
+    border-radius: $borderRadius;
+    
+    &__img{
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__txt-contain{
+        padding: 1vh 1vw;
+    }
+
+    &__tittle{
+        font-size: $f4;
+        font-weight: 700;
+        color: $primaryCol;
+        margin: 2em auto 1em;
+    }
+
+    &__txt{
+        font-size: $f3;
+        color: $primaryCol;
+        margin: 2em 0;
+    }
+
+    &__options{
+        display: flex;
+    }
+
+    &__link{
+        margin: 0 2vw;
+    }
+}
