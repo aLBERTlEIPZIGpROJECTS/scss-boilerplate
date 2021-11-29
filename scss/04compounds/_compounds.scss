@@ -1,10 +1,10 @@
 @import 'button';
-@import 'cards';
-@import 'forms';
-@import 'menus';
-@import 'otherNavs';
-@import 'selectors';
-@import 'shorthandMenus';
+@import './card/cards';
+@import './forms/forms';
+@import './menus/menus';
+@import './otherNav/otherNavs';
+@import './selectors/selectors';
+@import './shorthandMenu/shorthandMenus';
 @import 'accordion';
 @import 'list';
 @import 'carousel';
