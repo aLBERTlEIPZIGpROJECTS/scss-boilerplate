@@ -1,2 +1,0 @@
-materialCard    card1
-employeeCard    card2

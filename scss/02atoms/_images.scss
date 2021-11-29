@@ -1,4 +1,20 @@
-$imgLogo:   4vw;
-$imgSmall:  8vw;
-$imgMed:    16vw;
-$imgBig:    33vw;
+.imgLogo{
+    width: 4vw;
+    height: 4vw;
+    object-fit: contain;
+}
+.imgLogo{
+    width: 8vw;
+    height: 8vw;
+    object-fit: contain;
+}
+.imgLogo{
+    width: 16vw;
+    height: 16vw;
+    object-fit: contain;
+}
+.imgLogo{
+    width: 33vw;
+    height: 33vw;
+    object-fit: contain;
+}

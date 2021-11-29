@@ -5,8 +5,8 @@ materialCard1
     border-radius: $borderRadius;
     
     &__img{
-        height: 50%;
-        width: 100%;
+        max-height: 100px;
+        max-width: 100px;
         object-fit: cover;
     }
 

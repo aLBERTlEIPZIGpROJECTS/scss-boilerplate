@@ -1,5 +1,5 @@
-$borderThin: .5px;
-$borderMed: 3px;
-$borderThick: 5px;
+$borderThin: .5px, solid $primaryColorMuted;
+$borderMed: 3px, solid $primaryColorMuted;
+$borderThick: 5px, solid $primaryColorMuted;
 
 $borderRadius: 10px;
