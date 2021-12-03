@@ -790,6 +790,38 @@ materialCard1
   padding: .5em 1em;
 }
 
+body {
+  margin: 0;
+  padding: 5vh 0;
+}
+
+.contact_form__title {
+  color: #95bf40;
+  margin-bottom: 1.5em;
+}
+
+.contact_form__container {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_form__label {
+  margin-top: .5em;
+}
+
+.contact_form__textArea {
+  border: 0.5px solid #8eac53;
+  width: 100%;
+}
+
+.contact_form__send {
+  color: white;
+  margin: 1.5em 0;
+  font-size: 2.13333rem;
+  background-color: #6a40bf;
+}
+
 .aside {
   display: flex;
   flex-direction: column;

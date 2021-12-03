@@ -8,20 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Contact</h2>
-    <form action="">
-        <label for="fName">First Name</label>
+    <h2 class="contact_form__title">Contact</h2>
+    <form action="" class="contact_form__container">
+        <label for="fName" class="contact_form__label">First Name</label>
         <input type="text" id="fName" maxlength="20" required> 
-        <label for="lName">Last Name</label>
+        <label for="lName" class="contact_form__label">Last Name</label>
         <input type="text" id="lName" maxlength="20" required> 
-        <label for="mail">E-Mail</label>
+        <label for="mail" class="contact_form__label">E-Mail</label>
         <input type="text" id="mail" maxlength="20"> 
-        <label for="phone">Phone Number</label>
+        <label for="phone" class="contact_form__label">Phone Number</label>
         <input type="text" id="phone" maxlength="20"> 
-        <label for="subject">Subject</label>
+        <label for="subject" class="contact_form__label">Subject</label>
         <input type="text" id="subject" maxlength="20"> 
-        <textarea name="txtArea" id="txtArea" cols="30" rows="10" maxlength="1000">Your message here</textarea>
-        <button type="submit">Send</button>
+        <label for="txtArea" class="contact_form__label">Your message here</label>
+        <textarea name="txtArea" id="txtArea" cols="30" rows="10" maxlength="1000" class="contact_form__textArea"></textarea>
+        <button type="submit" class="contact_form__send">Send</button>
     </form>
 </body>
 </html>
