@@ -4,8 +4,11 @@
 
 $primaryCol:        hsl($hue, $sat2, $lux2);
 $primaryColMuted:   hsl($hue, $sat1, $lux2);
+$primaryColLight:   hsl($hue, $sat1, $lux2);
+$primaryColSat:     hsl($hue, $sat1, $lux2);
 
 $compCol:           hsl($complementary, $sat2, $lux2);
+$compColMuted:      hsl($complementary, $sat1, $lux1);
 
 $black:             hsl($hue, $sat, $lux);
 $grey1:             hsl($hue, $sat, $lux1);

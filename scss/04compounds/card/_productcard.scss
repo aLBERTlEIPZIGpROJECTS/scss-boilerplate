@@ -1,10 +1,23 @@
 .productcard{
-    max-width: 10vw;
-    border: $borderMed solid $primaryCol;
-    border-radius: $borderRadius;
-    padding: 10%, 10%;
+
+    &__container{
+        max-width: 15vw;
+        border: $borderMed solid $primaryCol;
+        border-radius: $borderRadius;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: 1px solid;
+        padding: 1.5vh 0;
+    }
     
-    &__discount{
+    &__name{
+        font-size: $f4;
+        color: $primaryCol;
+        font-weight: 700;
+    }
+
+ /*    &__discount{
         background-color: red;
         padding: 1em 1.5em;
         color: white;
@@ -12,12 +25,12 @@
         position: absolute;
         top: 10%;
         left: 10%;
-    }
+    } */
     
     &__img{
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
+        border-radius: 10px;
+        height: 33%;
+        width: 90%;
         object-fit: cover;
         margin-bottom: 10px;
     }
@@ -47,6 +60,11 @@
         font-size: $f4;
         font-weight: 700;
         color: $primaryColSat;
+
+        &:after{
+            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f153";
+            margin-left: .5em;
+        }
     }
 
     &__size-container{
@@ -70,16 +88,12 @@
 
     //font awesome
 
-    &__btn{
-        width: 80%;
+    &__order{
         color: white;
+        font-size: $f3;
         background-color: #3d3d3d;
         border-radius: 20px;
-
-        &:after{
-            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f178";
-            margin-right: 10%;
-        }
+        padding: .5em 1em;
     }
     
 }

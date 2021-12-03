@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.meatball{
+    &__container{
+        width: fit-content;
+        display: flex;
+    }
+
+    &__square{
+        height: 10px;
+        width: 10px;
+        background-color: $black;
+        margin: 0 5px;
+    }
+}

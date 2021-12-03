@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.alt_burger{
+    &__container{
+        /* background-color: red; */
+        width: fit-content;
+    }
+
+    &__line{
+        height: 5px;
+        width: 40px;
+        background-color: $black;
+        margin: 5px 0;
+    }
+}

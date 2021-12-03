@@ -35,6 +35,10 @@ p, textarea, figcaption, label, input, textarea, li{
     margin-bottom: .5em;
 }
 
+input{
+    outline: 1px solid $primaryCol;
+}
+
 a, textarea, figcaption{
     line-height: 1.5em;
     width: clamp(45ch, 50%, 75ch);
