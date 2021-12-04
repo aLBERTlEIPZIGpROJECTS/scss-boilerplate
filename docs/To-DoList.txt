@@ -4,7 +4,4 @@ add @media
 untouched
     otherNav
     selectors
-    accordion
-    button
-    carousel
-    list
+    accordion needs more styling
