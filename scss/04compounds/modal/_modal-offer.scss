@@ -1,9 +1,3 @@
-body{
-    background-color: #2d2d2d;
-    display: grid;
-    place-items: center;
-}
-
 .modal-offer{
     &__container{
         width: 25vh;
@@ -13,10 +7,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
-        justify-content: space-between;
         align-items: center;
-
     }
 
     &__img{
@@ -56,16 +47,16 @@ body{
         margin: .5em auto 1.5em;
         display: block;
     
-        :hover{
+        &:hover{
             color: $primaryColMuted;
         }
     
-        :active{
+        &:active{
             color: white;
             background-color: $primaryCol;
         }
     
-        :focus{
+        &:focus{
             color: $primaryColMuted;
             background-color: $primaryCol;
         }

@@ -2,12 +2,9 @@ test cards
 add @media
 
 untouched
-
-    menus
     otherNav
     selectors
     accordion
     button
     carousel
     list
-    modal
