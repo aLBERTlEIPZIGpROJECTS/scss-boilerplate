@@ -449,14 +449,10 @@ h3 {
   margin-bottom: .5em;
 }
 
-p, textarea, figcaption, label, input, textarea, li {
+p, textarea, figcaption, label, textarea, li {
   color: #95bf40;
   font-size: 2.13333rem;
   margin-bottom: .5em;
-}
-
-input {
-  outline: 1px solid #95bf40;
 }
 
 a, textarea, figcaption {
@@ -911,6 +907,91 @@ body {
 
 .tab-bar__icon:hover {
   box-shadow: 0 3px 0 #6a40bf;
+}
+
+.goto__container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.goto__point {
+  height: 30px;
+  display: block;
+}
+
+.goto__point-central {
+  display: block;
+  height: 30px;
+  margin: 20px 0;
+}
+
+.breadcrumb__container {
+  height: 4em;
+  width: fit-content;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.breadcrumb__link {
+  color: #95bf40;
+  font-size: 1.6rem;
+}
+
+.breadcrumb__link:hover {
+  color: #8eac53;
+}
+
+.breadcrumb__link:focus {
+  color: #95bf40;
+  outline: 1px solid #6a40bf;
+}
+
+.breadcrumb__link:active {
+  color: #8eac53;
+  outline: 3px solid #6a40bf;
+}
+
+.breadcrumb__divider {
+  margin: 0 10px;
+}
+
+.search__container {
+  width: 20vw;
+  height: 4em;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 1em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__input {
+  color: #95bf40;
+  padding: .5em 1em;
+  font-size: 2.13333rem;
+}
+
+.search__icon {
+  height: 20px;
+  width: 20px;
+  margin-right: .25em;
+}
+
+.search__btn {
+  color: white;
+  background-color: #95bf40;
+  font-size: 2.13333rem;
+  width: 5em;
+  height: 4em;
 }
 
 /* @import 'altBurger';
