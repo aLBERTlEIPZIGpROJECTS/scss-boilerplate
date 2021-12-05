@@ -1,7 +1,15 @@
-test cards
-add @media
+Every compound must
 
-untouched
-    otherNav
-    selectors
-    accordion needs more styling
+    be renamed into component
+    apply cohesive naming conventions
+    modern sass syntax
+    more modular (so the same styles applies to every page)
+    convert html to react component
+    create missing react components
+    test together
+    @media
+
+
+// PHASE 3
+
+Create an interface which takes the input from the user (the web from a drag and drop) and converts into react components
