@@ -1,4 +1,6 @@
-header, footer{
+@use '../01subAtoms/colors' as *;
+
+header{
     padding: 5vh 20vw;
     display: flex;
     justify-content: space-between;

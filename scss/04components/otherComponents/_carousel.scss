@@ -1,0 +1,18 @@
+@use '../../01subAtoms/subatoms' as *;
+
+.carousel{
+    &__container{
+        background-color: $white;
+        width: 80%;
+        height: 30vh;
+        overflow: hidden;
+        display: flex;
+    }
+
+    &__img{
+        height: 30vh;
+        width: 30vh;
+        object-fit: cover;
+        outline: 5px solid $black;
+    }
+}

@@ -1,0 +1,15 @@
+@use '../../01subAtoms/subatoms' as *;
+
+.kebab{
+    &__container{
+        /* background-color: red; */
+        width: fit-content;
+    }
+
+    &__square{
+        height: 10px;
+        width: 10px;
+        background-color: $black;
+        margin: 5px 0;
+    }
+}

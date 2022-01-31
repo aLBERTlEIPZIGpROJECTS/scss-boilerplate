@@ -1,10 +1,10 @@
-@import '_colorCalculator';
+@use '_colorCalculator' as *;
 
 /* === go to subAtoms === */
 
 $primaryCol:        hsl($hue, $sat2, $lux2);
 $primaryColMuted:   hsl($hue, $sat1, $lux2);
-$primaryColLight:   hsl($hue, $sat1, $lux2);
+$primaryColLight:   hsl($hue, $sat3, $lux3);
 $primaryColSat:     hsl($hue, $sat1, $lux2);
 
 $compCol:           hsl($complementary, $sat2, $lux2);

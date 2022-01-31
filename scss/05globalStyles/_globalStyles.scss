@@ -1,6 +1,6 @@
-@import 'root';
-@import 'header';
-@import 'mainL';
-@import 'footer';
-@import 'article';
-@import 'section';
+@forward 'root';
+@forward 'header';
+@forward 'mainL';
+@forward 'footer';
+@forward 'article';
+@forward 'section';

@@ -1,8 +1,8 @@
-@import './001bigBang/bigBang';
-@import './01subAtoms/subAtoms';
-@import './02atoms/atoms';
-@import './04compounds/compounds';
-@import './05globalStyles/globalStyles';
-@import './06localStyles/localStyles';
-@import './07animations/animations';
-@import './08media/media';
+@use './001bigBang/bigBang';
+@use './01subAtoms/subAtoms';
+@use './02atoms/atoms';
+@use './04components/components';
+@use './05globalStyles/globalStyles';
+@use './06localStyles/localStyles';
+@use './07animations/animations';
+@use './08media/media';

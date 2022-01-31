@@ -1,0 +1,15 @@
+@use '../01subAtoms/subatoms' as *;
+
+.burger{
+    &__container{
+        /* background-color: red; */
+        width: fit-content;
+    }
+
+    &__line{
+        height: 5px;
+        width: 40px;
+        background-color: $black;
+        margin: 5px 0;
+    }
+}

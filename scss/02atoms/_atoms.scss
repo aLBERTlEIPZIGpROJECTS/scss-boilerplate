@@ -1,6 +1,7 @@
-@import 'typography';
-@import 'images';
-@import 'borders';
-@import 'background';
-@import 'icons';
-@import 'socialMediaLinks';
+@forward 'typography';
+@forward 'images';
+@forward 'borders';
+@forward 'icons';
+@forward 'socialMediaLinks';
+@forward 'logos';
+@forward 'loader';

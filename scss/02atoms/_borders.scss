@@ -1,4 +1,4 @@
-@import '../01subAtoms/colors';
+@use '../01subAtoms/colors' as *;
 
 $borderThin: .5px solid $primaryColMuted;
 $borderMed: 3px solid $primaryColMuted;

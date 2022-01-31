@@ -1,6 +1,6 @@
 /* go to typography */
 
-@import 'colors';
-@import 'fontFamily';
-@import 'fontSize';
-@import 'durations';
+@forward 'colors';
+@forward 'fontFamily';
+@forward 'fontSize';
+@forward 'durations';
