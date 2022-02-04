@@ -5,6 +5,10 @@
     max-width: 10vw;
     border: $borderMed solid $primaryCol;
     border-radius: $borderRadius;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
     
     &__img{
         max-height: 100px;

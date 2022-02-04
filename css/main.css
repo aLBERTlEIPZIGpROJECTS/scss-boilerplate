@@ -522,6 +522,10 @@ a :focus {
   max-width: 10vw;
   border: 3px solid #8eac53 solid #95bf40;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
 }
 .card__img {
   max-height: 100px;
@@ -1125,6 +1129,13 @@ body {
   font-size: 10px;
 }
 
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
 header {
   padding: 5vh 20vw;
   display: flex;
@@ -1141,14 +1152,6 @@ main {
   padding: 5vh 0;
 }
 
-body {
-  background-color: tomato;
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  width: 100vw;
-}
-
 footer {
   position: fixed;
   inset: auto 0 0 0;
@@ -1163,6 +1166,114 @@ footer {
 
 section {
   margin: 3vh 0;
+}
+
+.layout1 {
+  border: 2px solid #ced1c7;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.layout2 {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  outline: 1px solid red;
+}
+
+.layout3 {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+.ph3__header {
+  background-color: blue;
+  width: 100%;
+  height: 10vh;
+}
+
+.ph3__main {
+  background-color: bisque;
+  height: auto;
+  width: auto;
+}
+
+.ph3__footer {
+  background-color: brown;
+  width: 100%;
+  height: 10vh;
+}
+
+.ph4__header {
+  padding: 2rem;
+  grid-column: 1/4;
+  background-color: rosybrown;
+}
+
+.ph4__left-sd {
+  padding: 2rem;
+  grid-column: 1/2;
+  background-color: blue;
+}
+
+.ph4__main-content {
+  padding: 2rem;
+  grid-row: 2/4;
+  background-color: burlywood;
+}
+
+.ph4__right-sd {
+  padding: 2rem;
+  grid-column: 4/4;
+  background-color: yellow;
+}
+
+.ph4__footer {
+  padding: 2rem;
+  grid-column: 1/4;
+  background-color: greenyellow;
+}
+
+.ph5 {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.ph5__div {
+  height: 100px;
+  width: 100px;
+}
+
+/* it works with auto-fill as well, but different */
+.pink {
+  background-color: pink;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.test1 {
+  height: 100px;
+  width: 100px;
+  background-color: #5f5f5f;
+}
+
+.test2 {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
 }
 
 /* @media screen and (min-width: 768px){
