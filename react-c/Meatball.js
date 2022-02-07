@@ -16,7 +16,7 @@ const Meatball = () => {
       <div className={`${meatballClass}-line1`}></div>
       <div className={`${meatballClass}-line2`}></div>
       <div className={`${meatballClass}-line3`}></div>
-      <Navbar class={`${meatballClass}-navbar`} link="youtube.com" txt="txt" />
+      <Navbar class={`${meatballClass}-navbar`} link="youtube.com" text="text" />
     </div>
   );
 };

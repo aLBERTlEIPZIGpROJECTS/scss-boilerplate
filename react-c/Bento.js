@@ -27,7 +27,7 @@ const Bento = () => {
         <div className={`${bentoClass}-line2`}></div>
         <div className={`${bentoClass}-line3`}></div>
       </div>
-      <Navbar class={`${bentoClass}-navbar`} link="youtube.com" txt="txt" />
+      <Navbar class={`${bentoClass}-navbar`} link="youtube.com" text="text" />
     </div>
   );
 };

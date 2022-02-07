@@ -4,7 +4,7 @@ const Datepicker = () => {
   return (
     <div className="date-picker">
       <input type="date" />
-      <Button text="send" />
+      <Button text="send" link="string" body="string" type="string" />
     </div>
   );
 };

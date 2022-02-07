@@ -16,7 +16,7 @@ const AltBurger = () => {
       <div className={`${altBurgerClass}-line1`}></div>
       <div className={`${altBurgerClass}-line2`}></div>
       <div className={`${altBurgerClass}-line3`}></div>
-      <Navbar class={`${altBurgerClass}-navbar`} link="youtube.com" txt="txt" />
+      <Navbar class={`${altBurgerClass}-navbar`} link="youtube.com" text="text" />
     </div>
   );
 };

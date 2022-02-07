@@ -16,7 +16,7 @@ const Kebab = () => {
       <div className={`${kebabClass}-line1`}></div>
       <div className={`${kebabClass}-line2`}></div>
       <div className={`${kebabClass}-line3`}></div>
-      <Navbar class={`${kebabClass}-navbar`} link="youtube.com" txt="txt" />
+      <Navbar class={`${kebabClass}-navbar`} link="youtube.com" text="text" />
     </div>
   );
 };

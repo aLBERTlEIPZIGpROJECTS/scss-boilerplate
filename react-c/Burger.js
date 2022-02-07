@@ -16,7 +16,7 @@ const Burger = () => {
       <div className={`${burgerClass}-line1`}></div>
       <div className={`${burgerClass}-line2`}></div>
       <div className={`${burgerClass}-line3`}></div>
-      <Navbar class={`${burgerClass}-navbar`} link="youtube.com" txt="txt" />
+      <Navbar class={`${burgerClass}-navbar`} link="youtube.com" text="text" />
     </div>
   );
 };

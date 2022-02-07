@@ -1,10 +1,10 @@
 import Link from "./Link";
 const Button = (props) => {
   return (
-    <div className="button">
-      <p>{props.text}</p>
+    <button className="button" type={props.type}>
+      <p>{props.body}</p>
       <Link link={props.link} text={props.text} />
-    </div>
+    </button>
   );
 };
 

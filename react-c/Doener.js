@@ -16,7 +16,7 @@ const Doener = () => {
       <div className={`${doenerClass}-line1`}></div>
       <div className={`${doenerClass}-line2`}></div>
       <div className={`${doenerClass}-line3`}></div>
-      <Navbar class={`${doenerClass}-navbar`} link="youtube.com" txt="txt" />
+      <Navbar class={`${doenerClass}-navbar`} link="youtube.com" text="text" />
     </div>
   );
 };

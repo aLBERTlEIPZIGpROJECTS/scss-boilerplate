@@ -1,4 +1,5 @@
 import ContactField from "./ContactField";
+import Button from "./Button";
 
 const ContactForm = () => {
   return (
@@ -7,6 +8,7 @@ const ContactForm = () => {
         data.map((field) => (
           <ContactField htmlfor={data.htmlfor} type={data.type} />
         ))}
+        <Button type = "string" body = "string" text = "string" link = "string" />
     </div>
   );
 };

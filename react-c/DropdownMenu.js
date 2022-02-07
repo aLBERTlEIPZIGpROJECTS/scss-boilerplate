@@ -1,4 +1,5 @@
 import Button from "./Button";
+
 const DropdownMenu = (props) => {
   const data = ["option1", "option2", "option3", "option4"];
 
@@ -10,7 +11,7 @@ const DropdownMenu = (props) => {
             <option className="dropdown-menu__option">{option}</option>
           ))}
       </select>
-      <Button text="send" link="youtube.com" />
+      <Button text="send" link="youtube.com" body="string" type="string"/>
     </div>
   );
 };
