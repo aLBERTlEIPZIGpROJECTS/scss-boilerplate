@@ -1,11 +1,18 @@
-const toggle = document.querySelector(".toggle")
+import { useState } from "react"
 
-toggle.onclick = () => {
-    if (toggle.classList.contains("toggle-on")){
-        toggle.classList.remove("toggle-on")
-        toggle.classList.add("toggle-off")
-    } else {
-        toggle.classList.remove("toggle-off")
-        toggle.classList.add("toggle-on")
+const Toggle = () => {
+
+    const [ toggle, setToggle] = useState("toggle-rest")
+
+    const updateToggle = () => {
+        toggle === "toggle-rest" ? setToggle("toggle-active") : setToggle("toggle-rest")
     }
+
+    return(
+        <div className={ toggle } onClick={ updateToggle }>
+            <div className={`${ toggle }__btn`}></div>
+        </div>
+    )
 }
+
+export default Toggle

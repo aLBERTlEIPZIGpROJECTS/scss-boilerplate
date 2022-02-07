@@ -2,7 +2,9 @@ import Link from "./Link"
 
 const Tabbar = () => {
     return(
-        <Link link = "" txt = "" />
+        <div className="tabbar">
+            { data && data.map <Link link = { data.link } txt = { data.txt } /> }
+        </div>
     )
 }
 

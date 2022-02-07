@@ -1,9 +1,12 @@
-import BreadcrumbTxt from "./BreadcrumbTxt"
+const Breadcrumb = () =>{
+    const data = ["opt1", "opt2", "opt3"]
 
-const Breadcrumb = (props) => {
     return(
-        <div className="breadcrumb">
-            <BreadcrumbTxt txt = "hello" />            
+        <div>
+            <ul className="breadcrumb__container">
+                { data && data.map((option) => <li className="breadcrumb__element" key={option}>{ option }</li>)
+                }
+            </ul>
         </div>
     )
 }

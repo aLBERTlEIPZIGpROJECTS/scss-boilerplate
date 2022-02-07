@@ -1,14 +1,12 @@
-import DropdownMenu from "./DropdownMenu"
 import Button from "./Button"
 
-const DatePicker = () => {
+const Datepicker = () =>{
     return(
         <div className="date-picker">
-            <h3>Pick a date</h3>
-            <DropdownMenu />
-            <DropdownMenu />
-            <DropdownMenu />
-            <Button txt = "send" />
+            <input type="date" />
+            <Button text = "send" />
         </div>
     )
 }
+
+export default Datepicker

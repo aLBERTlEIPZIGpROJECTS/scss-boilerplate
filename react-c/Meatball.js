@@ -1,10 +1,22 @@
+import { useState } from "react"
+
+import Navbar from "./Navbar"
+
 const Meatball = () => {
+
+    const [ meatballClass, setmeatballClass ] = useState("meatball__rest")
+    
+    const changemeatballClass = () => {
+        meatballClass === "meatball__rest" ? setmeatballClass("meatball__active") : setmeatballClass("meatball__rest")
+    }
+
     return(
-        <div className="meatball-menu">
-            <div className="meatball-menu__top"></div>
-            <div className="meatball-menu__med"></div>
-            <div className="meatball-menu__bot"></div>
-        </div>
+        <div className={ meatballClass } onClick = { changemeatballClass }>
+        <div className={`${ meatballClass }-line1`}></div>
+        <div className={`${ meatballClass }-line2`}></div>
+        <div className={`${ meatballClass }-line3`}></div>
+        <Navbar class = {`${ meatballClass }-navbar`} link = "youtube.com" txt = "txt" />
+    </div>
     )
 }
 

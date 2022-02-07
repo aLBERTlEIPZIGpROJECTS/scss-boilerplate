@@ -1,9 +1,10 @@
 import ContactField from "./ContactField"
 
 const ContactForm = () => {
+
     return (
         <div className="contact-form__container">
-            <ContactField />
+            {data && data.map (<ContactField htmlfor = {data.htmlfor} type = {data.type} />)}
         </div>
     )
 }
