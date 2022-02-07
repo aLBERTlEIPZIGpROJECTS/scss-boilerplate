@@ -1,7 +1,5 @@
 const Link = (props) => {
-    return(
-        <a href={ props.link }>{props.txt}</a>
-    )
-}
+  return <a href={props.link}>{props.txt}</a>;
+};
 
-export default Link
+export default Link;

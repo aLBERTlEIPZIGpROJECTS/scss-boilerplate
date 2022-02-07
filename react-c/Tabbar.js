@@ -1,11 +1,11 @@
-import Link from "./Link"
+import Link from "./Link";
 
 const Tabbar = () => {
-    return(
-        <div className="tabbar">
-            { data && data.map <Link link = { data.link } txt = { data.txt } /> }
-        </div>
-    )
-}
+  return (
+    <div className="tabbar">
+      {data && data.map((link) => <Link link={link.link} txt={link.txt} />)}
+    </div>
+  );
+};
 
-export default Tabbar
+export default Tabbar;

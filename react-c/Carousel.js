@@ -1,9 +1,9 @@
 const Carousel = () => {
-    return(
-        <div className="carousel">
-            <AccordionImg src = "" alt = ""/>
-        </div>
-    )
-}
+  return (
+    <div className="carousel">
+      <AccordionImg src="" alt="" />
+    </div>
+  );
+};
 
-export default Carousel
+export default Carousel;
