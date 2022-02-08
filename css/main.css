@@ -397,7 +397,7 @@ $f9:      11.9rem;
 /* go to typography */
 h1 {
   color: #95bf40;
-  font-size: 3.7925925926rem;
+  font-size: clamp(3.7rem, 3vw, 10rem);
   font-weight: 700;
   margin-bottom: 0.5em;
   line-height: 0.8em;
