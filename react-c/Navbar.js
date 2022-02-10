@@ -1,33 +1,18 @@
 import Link from "./Link";
-import { useState, useEffect } from "react";
-
-const data = [
-  {
-    link: "youtube.com",
-    txt: "link1",
-  },
-  {
-    link: "youtube.com",
-    txt: "link2",
-  },
-  {
-    link: "youtube.com",
-    txt: "link3",
-  },
-];
 
 const Navbar = (props) => {
-  /* const [ navBar, setNavBar ] = (data) */
+
+  const links = props.links
 
   return (
-    <div className={props.class}>
-      <h2>Hello</h2>
-      {/* <Link link = { props.link } txt = { props.txt } /> */}
-      {/*    {
-                navBar && navBar.map((link) => (
-                <Link link = { data.link } txt = { data.txt } />
-                ))
-            } */}
+    <div className={props.class} className= {props.class}>
+      <Link link = {links[0].link} text = {links[0].text} className="navbar-link"/>
+      <Link link = {links[1].link} text = {links[1].text} className="navbar-link"/>
+      <Link link = {links[2].link} text = {links[2].text} className="navbar-link"/>
+     {/*  {
+        links && links.map((link) => (
+          <Link link = { link.link } txt = { link.txt } key= {link.id} className="navbar-link"/>
+      ))} */}
     </div>
   );
 };
